@@ -22,6 +22,10 @@ img {
   vertical-align: bottom;
 }
 
+video {
+  display: none;
+}
+
 h1,
 h2,
 h3,
@@ -60,6 +64,10 @@ button {
 
 canvas {
   display: block;
+}
+
+.overfloat-hidden {
+  overflow: hidden;
 }
 
 summary::-webkit-details-marker {
